@@ -264,10 +264,18 @@ These charts provide visual confirmation of behavioral differences between **Fea
 
 ---
 
-#  Predictive Modeling
+## Predictive Modeling (Bonus)
+A Random Forest Classifier was trained to predict next-day account profitability based on current behavioral features and market sentiment. 
 
-A **Random Forest model** was trained to predict:
+### Feature Importance
+The model revealed that a trader's *current* Daily PnL and Average Trade Size (leverage proxy) are the most significant predictors of whether they will be profitable the following day, heavily outweighing general market sentiment. 
+<br>
+<img src="feature_importance.png" alt="Model Feature Importance" width="600"/>
 
+### Model Evaluation (Confusion Matrix)
+The model achieves a solid baseline accuracy (~69%). It is highly effective at identifying true profitable days (high recall for class 1) but occasionally misclassifies unprofitable days, indicating that unpredictable market shocks still play a role.
+<br>
+<img src="confusion_matrix.png" alt="Model Confusion Matrix" width="400"/>
 ### Target
 
 ```
