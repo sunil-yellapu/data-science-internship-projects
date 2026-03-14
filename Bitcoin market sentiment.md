@@ -264,7 +264,7 @@ These charts provide visual confirmation of behavioral differences between **Fea
 
 ---
 
-# 🤖 Predictive Modeling
+#  Predictive Modeling
 
 A **Random Forest model** was trained to predict:
 
@@ -293,7 +293,7 @@ Predict trader profitability based on:
 
 ---
 
-# 🧰 Tech Stack
+#  Tech Stack
 
 * Python
 * Pandas
@@ -303,15 +303,15 @@ Predict trader profitability based on:
 * Scikit-Learn
 ---
 
-# 📌 Conclusion
+#  Conclusion
 
 The analysis shows that **market sentiment strongly influences trader behavior and performance**.
 
 Key takeaways:
 
-1️⃣ Traders perform better during **Greed periods**
-2️⃣ **Risk-taking increases during Fear markets**
-3️⃣ **Disciplined traders outperform aggressive traders over time**
+1️. Traders perform better during **Greed periods**
+2️. **Risk-taking increases during Fear markets**
+3️. **Disciplined traders outperform aggressive traders over time**
 
 Understanding these patterns can help trading platforms:
 
