@@ -1,5 +1,5 @@
 # Market sentiment Analysis
-# 📊 Trader Behavior vs Market Sentiment Analysis
+#  Trader Behavior vs Market Sentiment Analysis
 
 ## Project Overview
 
@@ -19,9 +19,9 @@ The objective is to determine:
 
 ---
 
-# 📂 Dataset
+#  Dataset
 
-### 1️⃣ Historical Trading Data
+### 1️. Historical Trading Data
 
 Contains:
 
@@ -37,7 +37,7 @@ Contains:
 
 ---
 
-### 2️⃣ Fear & Greed Index
+### 2️. Fear & Greed Index
 
 Contains daily sentiment classification:
 
@@ -78,11 +78,11 @@ Generated metrics:
 
 ---
 
-# 📊 Key Analysis Questions
+#  Key Analysis Questions
 
 ---
 
-# 1️⃣ Does performance differ between Fear vs Greed days?
+# 1️. Does performance differ between Fear vs Greed days?
 
 ### Chart: Average Daily PnL by Sentiment
 
@@ -101,7 +101,7 @@ During **Fear periods**, market volatility increases and profits decline.
 
 ---
 
-# 2️⃣ Do traders change behavior based on sentiment?
+# 2️. Do traders change behavior based on sentiment?
 
 The following behavioral metrics were analyzed:
 
@@ -111,14 +111,6 @@ The following behavioral metrics were analyzed:
 | Position Size      | Larger during Greed              |
 | Leverage           | Higher during Fear               |
 | Long vs Short Bias | More long positions during Greed |
-
-### Chart Examples
-
-Your notebook generates:
-
-1️⃣ **Average Trade Size by Sentiment**
-2️⃣ **Average Leverage by Sentiment**
-3️⃣ **Win Rate by Sentiment**
 
 ### Key Behavior Insight
 
@@ -137,7 +129,7 @@ Traders become:
 
 ---
 
-# 3️⃣ Trader Segmentation
+# 3️. Trader Segmentation
 
 Three key trader segments were identified.
 
@@ -204,7 +196,7 @@ Inconsistent traders:
 
 ---
 
-# 📈 Key Insights (Backed by Charts)
+#  Key Insights (Backed by Charts)
 
 ## Insight 1 — Market Sentiment Influences Profitability
 
@@ -241,11 +233,32 @@ More disciplined traders maintain **better long-term profitability**.
 
 # 📊 Charts Generated
 
-The notebook automatically generates the following visualizations:
+## Exploratory Data Analysis & Visualizations
 
-1️⃣ Average PnL by Sentiment
-2️⃣ Average Trade Size by Sentiment
-3️⃣ Average Leverage by Sentiment
+During the analysis, several key behavioral shifts were identified between "Fear" and "Greed" market cycles.
+
+### 1. Performance: PnL by Market Sentiment
+Surprisingly, the average daily PnL per trader is *higher* on Fear days compared to Greed days, indicating that volatility presents massive opportunities for certain segments.
+<br>
+<img src="Code_Generated_Image.png" alt="Average Daily PnL by Sentiment" width="600"/>
+
+### 2. Win Rate Stability
+Despite the higher PnL on Fear days, the overall win rate marginally drops, suggesting that traders rely on larger profit margins per winning trade rather than a higher hit rate during downturns.
+<br>
+<img src="Code_Generated_Image (1).png" alt="Win Rate by Sentiment" width="600"/>
+
+### 3. Trade Frequency & Behavioral Shifts
+Traders drastically alter their behavior based on sentiment. On Fear days, the average daily trade frequency spikes significantly as traders actively try to catch volatile swings.
+<br>
+<img src="Code_Generated_Image (2).png" alt="Average Trade Frequency" width="600"/>
+
+#### Frequency Distribution (Log Scale)
+<img src="Code_Generated_Image (3).png" alt="Trade Frequency Boxplot" width="600"/>
+
+#### Trade Size Distribution (Log Scale)
+Position sizes also see a notable jump during Fear periods, indicating aggressive leverage utilization by high-volume traders.
+<br>
+<img src="Code_Generated_Image (4).png" alt="Trade Size Boxplot" width="600"/>
 
 These charts provide visual confirmation of behavioral differences between **Fear and Greed markets**.
 
