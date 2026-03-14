@@ -288,27 +288,6 @@ Predict trader profitability based on:
 * Seaborn
 * Matplotlib
 * Scikit-Learn
-
----
-
-# 🚀 How to Run
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
-
-Run notebook:
-
-```
-sentiment_analysis.ipynb
-```
-
-Output generated:
-
-```
-processed_daily_metrics.csv
-```
-
 ---
 
 # 📌 Conclusion
@@ -328,5 +307,3 @@ Understanding these patterns can help trading platforms:
 * Build better trading analytics tools.
 
 ---
-
-Give me a structured readme file with clear structure: Business statement-> Approach-> Key Insights -> Model explanation
